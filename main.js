@@ -1,3 +1,7 @@
+import { injectSpeedInsights } from '@vercel/speed-insights';
+
+injectSpeedInsights();
+
 const URL = "https://pokeapi.co/api/v2/pokemon/";
 
 const input = document.getElementById("search-input");

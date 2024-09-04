@@ -53,6 +53,7 @@ body {
 .pokemons {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
     grid-gap: 10px;
 	flex-wrap: wrap;
 	max-width: 800px;
