@@ -1,8 +1,6 @@
 import { injectSpeedInsights } from '@vercel/speed-insights';
-import { inject } from "./@vercel/analytics"
 
 injectSpeedInsights();
-inject();
 
 const URL = "https://pokeapi.co/api/v2/pokemon/";
 
